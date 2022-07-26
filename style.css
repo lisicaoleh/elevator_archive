@@ -1,0 +1,188 @@
+* {
+    /*background: url("img/tree.webp") no-repeat;*/
+    margin: 0px;
+    box-sizing: border-box;
+    /*background-size:cover;*/
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+@media screen and (min-width: 1200px) {
+header .mainpan {
+    background: url("img/header.png") no-repeat;
+    background-size: 100% auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    color: white;
+    text-shadow: 1px 1px 5px black, 0 0 1em black;
+    font-family: "Cambria";
+    padding-left: 1%;
+
+}
+}
+@media screen and (max-width: 1200px) {
+    header .mainpan {
+        background: url("img/header.png") no-repeat;
+        background-size: 1280px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid black;
+        color: white;
+        text-shadow: 1px 1px 5px black, 0 0 1em black;
+        font-family: "Cambria";
+        padding-left: 1%;
+
+    }
+}
+header h1{
+
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    margin: 0px;
+    padding: 0px;
+    background-color: #333;
+    overflow: hidden;
+    height: 28px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.search {
+    margin-bottom:7px;
+}
+
+main {
+    padding-top: 12em;
+}
+
+
+.addfile{
+    padding-top: 1%;
+}
+
+
+.result {
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+    border-top: 1px solid black;
+}
+
+.success {
+    color: green;
+    font-size: 150%;
+    text-decoration: black 10px;
+    text-shadow: 1px 0 1px rgba(0, 0, 0, 0.78),
+    0 1px 1px rgba(0, 0, 0, 0.78),
+    -1px 0 1px rgba(0, 0, 0, 0.78),
+    0 -1px 1px rgba(0, 0, 0, 0.78);
+    float: right;
+    height: 20px;
+    padding-bottom: 4%;
+
+}
+
+.error {
+    color: red;
+    font-size: 150%;
+    text-decoration: black 10px;
+    text-shadow: 1px 0 1px rgba(0, 0, 0, 0.78),
+    0 1px 1px rgba(0, 0, 0, 0.78),
+    -1px 0 1px rgba(0, 0, 0, 0.78),
+    0 -1px 1px rgba(0, 0, 0, 0.78);
+    float: right;
+    height: 20px;
+    padding-bottom: 4%;
+}
+
+.deleteButton {
+    background-color: rgba(255, 0, 0, 0.42);
+    color: #333333;
+    margin-left: 3px;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.downloadButton {
+    background-color: rgba(153, 255, 0, 0.47);
+    color: #333333;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.result_hide {
+    display: none;
+}
+
+.result__btn {
+    padding: 0;
+    width: 100%;
+    line-height: 32px;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: coral;
+    text-align: center;
+    border: none;
+    background-color: #dedcdc;
+}
+.result__message {
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    font-size: 2.5em;
+    background-color: rgba(255, 70, 0, 0.84);
+    color: white;
+}
+
+.result__btn-href {
+    text-decoration: none;
+    color: #606060;
+}
+
+main div {
+
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px 2%;
+    font-size: 100%;
+
+}
+
+main>div:nth-child(odd){
+    background-color: white;
+}
+
+main>div:nth-child(even){
+    background-color: #faecec;
+}
